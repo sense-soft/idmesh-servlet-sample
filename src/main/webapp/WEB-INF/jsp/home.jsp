@@ -12,5 +12,10 @@
 </head>
 <body>
     <h1>Home</h1>
+
+    <div>
+        <h3>id_token: ${idToken}!</h3>
+        <h3>access_token: ${accessToken}!</h3>
+    </div>
 </body>
 </html>
