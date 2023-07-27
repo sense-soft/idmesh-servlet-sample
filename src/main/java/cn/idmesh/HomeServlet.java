@@ -17,7 +17,8 @@ public class HomeServlet extends HttpServlet {
         String idToken = (String) SessionUtils.get(req, "idToken");
         if (accessToken != null) {
             req.setAttribute("accessToken", accessToken);
-        } else if (idToken != null) {
+        }
+        if (idToken != null) {
             req.setAttribute("idToken", idToken);
         }
         req.getRequestDispatcher("/WEB-INF/jsp/home.jsp").forward(req, resp);

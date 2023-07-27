@@ -6,14 +6,14 @@
          metadata-complete="false">
     <context-param>
         <param-name>com.idmesh.domain</param-name>
-        <param-value>${domain}</param-value>
+        <param-value>237842.idmesh.site</param-value>
     </context-param>
     <context-param>
         <param-name>com.idmesh.clientId</param-name>
-        <param-value>${client_id}</param-value>
+        <param-value>1681211321867044864</param-value>
     </context-param>
     <context-param>
         <param-name>com.idmesh.clientSecret</param-name>
-        <param-value>${clientSecret}</param-value>
+        <param-value>1Y9Okx5keRn9RNYKm4VTNFpnWxQn9Lfi</param-value>
     </context-param>
 </web-app>
